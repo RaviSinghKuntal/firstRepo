@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+#login {
+  background-color: slategrey;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.Login-page.form-sepecial input {
+  margin-top: 0px !important;
+}
+.Login-page label {
+  position: absolute;
+  top: 0px;
+  font-size: 16px;
+  pointer-events: none;
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  z-index: 1;
+  transform: scale(1) translate(0px, 0px);
+  transform-origin: left top 0px;
+}
+.Login-page input:focus + label {
+  top: -18px;
+  font-size: 12px;
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+  z-index: 1;
+  transform: scale(1) translate(0px, 0px);
+  transform-origin: left top 0px;
+}
+.Login-page label.float-label {
+  top: -18px;
+  font-size: 12px;
+}
+.Login-page {
+  background: #fff;
+  width: 380px;
+  margin: 48px auto;
+  padding: 50px 26px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.Login-page h2 {
+  margin: 0;
+  color: #333f48;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 52px;
+  text-align: center;
+}
+.Login-page .control__indicator {
+  left: 0;
+  top: -1px;
+}
+.Login-page .checkbox label {
+  padding-left: 27px;
+  display: inline-block;
+  font-weight: 400;
+  position: static;
+  font-size: 12px;
+  pointer-events: auto;
+}
+.Login-page .forget-pass {
+  display: inline-block;
+  float: right;
+}
+.Login-page .forget-pass a {
+  font-size: 12px;
+  color: #9ea6b4;
+  font-weight: 400;
+  text-decoration: none;
+}
+.Login-page .login-btn,
+.Login-page .login-btn:hover {
+  width: 100%;
+  background: #00afd7; /* 002f6b; why add this color on login btn*/
+  border-radius: 4px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  outline: none;
+  height: 36px;
+  line-height: 26px;
+}
+.Login-page .checkbox {
+  margin-bottom: 28px;
+  margin-top: 20px;
+}
+
+.Login-page label,
+.Login-page input,
+.Login-page input:hover,
+.Login-page input:focus {
+  padding-left: 24px;
+}
+.Login-page input {
+  color: #333f48;
+  font-size: 16px;
+  font-weight: 400;
+}
+.Login-page input.form-control {
+  height: 28px;
+  padding: 0px 18px 6px 24px;
+}
+.Login-page .pass-eye {
+  position: absolute;
+  bottom: 7px;
+  right: 0;
+}
+.email-input {
+  margin-bottom: 50px;
+}
+.error-text {
+  position: relative;
+  top: 2px;
+  font-size: 12px;
+  line-height: 12px;
+  color: rgb(244, 67, 54);
+  transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+.pass-input,
+.text-input {
+  position: relative;
+}
